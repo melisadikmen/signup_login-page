@@ -1,0 +1,54 @@
+$orange-color: #ffe837;
+$primary-color: #F6FDC3;
+
+.login-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 70vh;
+    border-radius: 2rem;
+    padding: 1rem;
+    opacity: 0.8;
+    background-image: linear-gradient(30deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(150deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(30deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(150deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(60deg, #00000077 25%, transparent 25.5%, transparent 75%, #00000077 75%, #00000077), linear-gradient(60deg, #00000077 25%, transparent 25.5%, transparent 75%, #00000077 75%, #00000077);
+    background-size: 68px 119px;
+    background-position: 0 0, 0 0, 34px 60px, 34px 60px, 0 0, 34px 60px;
+    height: 65vh;
+}
+
+
+.login-btn {
+    width: 20%;
+
+    .login-btn2 {
+        font-weight: 500;
+        background-color: $primary-color;
+        width: 100%;
+    }
+}
+
+.sentences-passwd {
+    font-weight: 500;
+    color: $primary-color;
+}
+
+.log-in-title {
+    font-weight: 500;
+    color: $primary-color;
+}
+
+input {
+    padding: 18px;
+    border-radius: 2rem;
+    background-color: #171717;
+    color: white !important;
+    font-weight: 600;
+    font-size: 12px;
+    border: 2px solid #352d2d;
+    margin-bottom: 1rem;
+}
+
+mat-icon {
+    color: white;
+}

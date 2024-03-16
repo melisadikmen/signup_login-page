@@ -1,0 +1,33 @@
+@use 'stars'; 
+$primary-color: #F6FDC3;
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.toggle-in-up {
+    display: flex;
+    .login {
+        font-weight: bold;
+        margin-inline: 10px;
+        color: $primary-color;
+    }
+
+    .signup {
+        margin-inline: 10px;
+        font-weight: bold;
+        color: $primary-color;
+    }
+}
+
+
+
